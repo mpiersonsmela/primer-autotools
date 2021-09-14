@@ -4,4 +4,4 @@ Automatically query NCBI for qPCR primers. Basically you give it a gene symbol (
 Usage:
 `python3 qPCR_autotool.py [gene symbol]`
 
-The mapping from gene symbol to RefSeq ID is provided in `genemap.tsv` (which was the result of a BioMart query; up to date as of September 2021).
+The mapping from gene symbol to RefSeq ID is provided in `genemap.tsv` (which was the result of a BioMart query; up to date as of September 2021). If there are multiple possible RefSeq IDs, by default the lowest one is chosen.
